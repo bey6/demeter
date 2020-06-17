@@ -1,0 +1,30 @@
+{
+  "name": "demeter",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bey6/demeter.git"
+  },
+  "keywords": [
+    "demeter"
+  ],
+  "author": "bey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bey6/demeter/issues"
+  },
+  "homepage": "https://github.com/bey6/demeter#readme",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "commander": "^5.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.4.0",
+    "inquirer": "^7.2.0",
+    "shelljs": "^0.8.4"
+  }
+}
