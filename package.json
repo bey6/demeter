@@ -6,6 +6,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "bin": {
+    "demeter": "./index.js"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bey6/demeter.git"
@@ -25,6 +28,7 @@
     "download-git-repo": "^3.0.2",
     "figlet": "^1.4.0",
     "inquirer": "^7.2.0",
+    "ora": "^4.0.4",
     "shelljs": "^0.8.4"
   }
 }
