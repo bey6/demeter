@@ -14,8 +14,7 @@
   },
   "lint-staged": {
     "*.{js,jsx,vue}": [
-      "npx eslint -c .eslintrc.js *.js",
-      "git add"
+      "npx eslint -c .eslintrc.js *.js"
     ]
   },
   "repository": {
