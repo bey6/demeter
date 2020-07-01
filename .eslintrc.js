@@ -1,6 +1,7 @@
 module.exports = {
+  root: true,
   env: {
-    browser: true,
+    node: true,
     commonjs: true,
     es2020: true,
   },
@@ -9,5 +10,8 @@ module.exports = {
     ecmaVersion: 11,
     parser: 'babel-eslint',
   },
-  rules: { 'prettier/prettier': 'error' },
+  plugins: ['prettier'],
+  rules: {
+    'prettier/prettier': 'error',
+  },
 }
